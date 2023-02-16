@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+img{
+    width:100%;
+    height:auto;
+    border-radius:20%;
+}
+
+
+
+.first{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+}
+
+
+.fa-whatsapp{
+    font-size:50px;
+    color:green;
+}
+
+.number{
+    font-weight:bolder;
+    font-size:20px;
+}
+
+
+@keyframes anim{
+    10%{color:white;}
+    20%{color:green;}
+    40%{color:white;}
+    60%{color:purple;}
+    80%{color:white;}
+    100%{color:coral;}
+}
+
+#anim{
+animation-name:anim;
+animation-iteration-count:infinite;
+animation-duration: 4s;
+}
+
+
+
+
+@keyframes syedkazim{
+    10%{color:red;}
+    30%{color:green;}
+    60%{color:blue;}
+    100%{color:purple;}
+}
+
+
+h1{
+    animation-name:syedkazim;
+    animation-duration:2s;
+    animation-iteration-count:infinite !important;
+}
+
+
+
+
+#clock {
+    font-size: 3em;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    font-family: 'IBM Plex Serif', serif;
+}
+
+
+.one{
+    font-size:50px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+img{
+    font-size:10px !important;
+    margin-top:50px;
+}
+
+.one{
+    font-size:40px;
+    padding:20px;
+}
+
+
+  }
+
